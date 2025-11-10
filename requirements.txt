@@ -1,0 +1,9 @@
+@"
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+pydantic==1.10.9
+python-dotenv==1.0.0
+pinecone-client==2.2.2
+llama-cpp-python
+requests
+"@ | Out-File -FilePath .\backend\requirements.txt -Encoding utf8
